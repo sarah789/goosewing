@@ -215,7 +215,7 @@ function studio_display_featured_image() {
  * @return string Custom footer credits.
  */
 function studio_footer_creds_filter( $creds ) {
-	$creds = '[footer_copyright] <a href="' . CHILD_THEME_URL . '">Studio Pro</a> by <img src="' . get_stylesheet_directory_uri() . '/assets/images/favicon.png" width="10"> <a href="https://seothemes.net" title="Seo Themes">Seo Themes</a>. Built on the Genesis Framework.';
+	$creds = '[footer_copyright] Goosewing Digital';
 	return $creds;
 }
 
