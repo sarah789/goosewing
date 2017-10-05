@@ -189,7 +189,7 @@ function studio_enqueue_scripts_styles() {
 	}
 
 	// Google fonts.
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Muli:400,700|Monstserrat:700', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Muli:400,700|Monstserrat:700|Roboto+Mono:300,400,500,700|Crimson+Text', array(), CHILD_THEME_VERSION );
 
 	// Enqueue scripts.
 	wp_enqueue_script( 'studio-pro', get_stylesheet_directory_uri() . '/assets/scripts/min/studio-pro.min.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
