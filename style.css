@@ -599,8 +599,7 @@ th:first-child {
 	text-align: center;
 	padding: 50px 0;
 	margin-bottom: 2.5%;
-	text-transform: capitalize;
-	font-weight: 700
+	font-weight: 200
 }
 .gallery {
 	overflow: hidden
